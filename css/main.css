@@ -14,6 +14,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 header img{
@@ -95,6 +96,12 @@ header img{
     background-color: whitesmoke;
     height: calc(100vh - 7vh - 80px - 20px );
     padding-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    overflow: hidden;
 }
 
 .items {
@@ -123,6 +130,7 @@ th {
 table {
     border-collapse: collapse;
     width: 70vw;
+    overflow: hidden;
 }
 
 tr{
@@ -139,6 +147,20 @@ thead{
     border: 2px solid whitesmoke;
 }
 
+tbody{
+    overflow: hidden;
+}
+
+thead td{
+    text-align: left;
+}
+
+.small{
+    font-size: small;
+    font-weight: 400;
+    color: gray;
+}
+
 td img {
     height: 7vw;
     width: 7vw;
@@ -148,12 +170,13 @@ td a{
     box-shadow:  0 0 10px rgba(0, 0, 0, 1);
 }
 
+
 .item-holder-name{
     font-weight: 800;
 }
 
 .carousel2 table{
-    width: 98%;
+    width: 95%;
 }
 
 
@@ -166,9 +189,14 @@ td a{
     float: right;
 }
 
+.item-name{
+    border: 0;
+    border-collapse: collapse;
+    height: max-content;
+}
+
 .next {
     cursor: pointer;
-    /* position: absolute; */
     margin-right: -20px;
     height: 10vh;
     width: 30px;
@@ -178,4 +206,17 @@ td a{
     border: 0;
     user-select: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-  }
+    z-index: 1;
+}
+
+.i-name{
+    font-weight: 900;
+}
+
+.i-discount{
+    color: limegreen;
+}
+
+.i-gray{
+    color: gray;
+}

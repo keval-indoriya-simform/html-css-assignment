@@ -1,0 +1,181 @@
+:root{
+    --bg-blue: #2877F0
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 7vh;
+    background-color: var(--bg-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 7vh;
+    width: 7vh;
+}
+
+.search{
+    margin-left: 20px;
+    height: 3.5vh;
+    border: 0;
+    width: 25vw;
+    padding: 0 0 0 20px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.search-btn{
+    height: 3.5vh;
+    background: white;
+    outline: none;
+    border: 0;
+}
+
+.search-btn i{
+    color: var(--bg-blue);
+    padding: 0 10px 0 0;
+}
+
+.login-btn{
+    width: 6vw;
+    height: 3vh;
+    background: white;
+    outline: none;
+    border: 0;
+    color: var(--bg-blue);
+    margin-left: 15vw;
+    font-weight: 800;
+}
+
+.more button{
+    background-color: var(--bg-blue);
+    color: white;
+    outline: none;
+    border: 0;
+    height: 3.5vh;
+    width: 9vh;
+    margin: 0 20px;
+    font-weight: 800;
+}
+
+.more i{
+    padding: 5px 0 0 5px;
+    font-weight: 800;
+}
+.categories-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 10px 0;
+}
+
+.categorie img {
+    height: 70px;
+    width: 70px;
+    margin: 0 30px;
+}
+
+.categorie p {
+    font-size: medium;
+    text-align: center;
+}
+
+.content-holder{
+    background-color: whitesmoke;
+    height: calc(100vh - 7vh - 80px - 20px );
+    padding-top: 20px;
+}
+
+.items {
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.offer-img{
+    height:  calc(max(20vw, 240px));
+}
+
+table{
+    height: 20vw;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70vw;
+}
+
+tr{
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+thead{
+    border: 2px solid whitesmoke;
+}
+
+td img {
+    height: 7vw;
+    width: 7vw;
+}
+
+td a{
+    box-shadow:  0 0 10px rgba(0, 0, 0, 1);
+}
+
+.item-holder-name{
+    font-weight: 800;
+}
+
+.carousel2 table{
+    width: 98%;
+}
+
+
+.view-all-btn{
+    background-color: var(--bg-blue);
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 70px;
+    float: right;
+}
+
+.next {
+    cursor: pointer;
+    /* position: absolute; */
+    margin-right: -20px;
+    height: 10vh;
+    width: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    user-select: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }

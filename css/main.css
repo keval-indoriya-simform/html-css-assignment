@@ -217,6 +217,7 @@ td a {
     font-weight: 900;
     margin: 0;
     padding: 1px;
+    margin-top: 8px;
 }
 
 .i-discount {
@@ -230,9 +231,6 @@ td a {
     margin: 0;
     padding: 1px;
 }
-
-
-
 
 
 #slider-text{
